@@ -1,3 +1,9 @@
+body {
+    background: url("../images/page1_bg.jpg") center no-repeat fixed;
+    height: 100%;
+    background-size: cover;
+}
+
 .navbar {
     width: 100%;
     background: rgba(255, 11, 254, 0.8);
@@ -5,22 +11,27 @@
 }
 
 .nav-link {
-    border: #fff 2px;
     color: #fff;
 }
 
 a:hover {
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
-.page1-bg {
-    /*width: 100%;*/
+.page1 {
     height:100vh;
-    background: url(../images/page1_bg.jpg) no-repeat fixed;
-    background-size: cover;
-    overflow: hidden;
 }
 
-.intro {
-    margin: 200px auto;
+.page1-content {
+    display: flex;
+    height: 90%;
+    margin: 0 10%;
+}
+
+.fa-bars {
+    color: #ffffff;
+}
+
+.fa-home {
+    font-size: 1.2rem;
 }
