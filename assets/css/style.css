@@ -5,12 +5,11 @@
 }
 
 .nav-link {
-    border: #fff 2px;
     color: #fff;
 }
 
 a:hover {
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .page1-bg {
@@ -21,17 +20,27 @@ a:hover {
 
 .page1-content {
     display: flex;
-    width: 60%;
     height: 80%;
-   /* background-color: red;*/
-    margin-left: 10%;
+    margin: 0 10%;
 }
 
 .intro-block {
-    width: 100%;
-    margin: auto;
+    display: inline-block;
+    margin: auto 0;
 }
 
 .margin-left-auto {
     margin-left: auto;
+}
+
+.fa-bars {
+    color: #ffffff;
+}
+
+.fa-home {
+    font-size: 1.2rem;
+}
+
+.sub-title {
+    width: 80%;
 }

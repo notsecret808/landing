@@ -2,40 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/e3e7565dbb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Levandro's Landing Page</title>
 </head>
 <body>
-    <div class="page1-bg col-xs">
+    <div class="page1-bg ">
         <header>
-            <nav class="navbar navbar-expand-sm сontainer-fluid">
-                <div class="nav-item"><a href="#" class="nav-link">ABOUT</a></div>
-                <div class="nav-item"><a href="#" class="nav-link">BLOG</a></div>
-                <div class="nav-item"><a href="#" class="nav-link">TEAM</a></div>
-                <div class="nav-item"><a href="#" class="nav-link">CONTACT</a></div>
-                <div class="nav-item margin-left-auto"><a href="#" class="nav-link"><i class="fas fa-home"></i></a></div>
+            <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">TEAM</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i></a></div>
+                </div>
             </nav>
         </header>
 
         <div class="page1-content">
-            <div class="intro-block">
-                <h1>Hello, Welcome To My official Website</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-
+            <div class="container m-auto">
+                    <h1>Hello, Welcome To My official Website</h1>
+                    <p class = "col-7 pl-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <button type="button" class="btn btn-info">See more </button>
-
-            </div>
-
+                </div>
         </div>
     </div>
 </body>
