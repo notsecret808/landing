@@ -6,7 +6,7 @@ body {
 .navbar {
     width: 100%;
     background: rgba(113, 133, 239, 0.8);
-    border: 3px solid #435EEF;
+    border: 1px solid #435EEF;
 }
 
 .btn {
@@ -16,7 +16,7 @@ body {
 
 .btn:hover {
     background: #FFB600;
-    transition: 0.1s;
+    transition: 0.1ms;
 }
 
 .nav-link {
@@ -54,5 +54,5 @@ a:hover {
 }
 
 .about-me-worker-border {
-    border-right: 3px solid blue;
+    border-right: 3px solid     blue;
 }

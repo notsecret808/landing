@@ -12,7 +12,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <title>Levandro's Landing Page</title>
     </head>
-    <body>
+    <div>
         <div class="page1">
             <header>
                 <nav class="navbar navbar-expand-lg">
@@ -50,14 +50,14 @@
             <div class="row justify-content-center pb-3">
                 <h1 class="text-white">About me</h1>
             </div>
-            <div class="container d-flex about-me-color pt-3 pb-3 w-75">
-                 <div class="d-flex col-5">
+            <div class="row mx-auto d-flex about-me-color pt-3 pb-3 w-75">
+                 <div class="d-flex col-12 col-md-5">
                      <div class="d-flex align-items-center about-me-worker-border pr-3">
-                        <img src="assets/images/worker_photo.jpg" class="rounded-circle img-thumbnail" alt = "worker_photo">
+                        <img src="assets/images/worker_photo.jpg" class="rounded-circle img-thumbnail img-fluid" alt = "worker_photo">
                      </div>
                  </div>
 
-                <div class="container-fluid d-flex flex-column justify-content-center">
+                <div class="col d-flex flex-column justify-content-center">
                     <h2>Ivan Ivanov</h2>
                     <span class="text-white p-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -68,5 +68,108 @@
 
             </div>
         </div>
+
+        <div class="container p-5">
+            <div class="row justify-content-center pb-3"><h1 class ="text-white">Portfolio</h1></div>
+                <div class="row  pb-5">
+                    <div class="col-12 col-md-4 d-flex justify-content-center"><img src="assets/images/portfolio/example1.png" class = "img-fluid" alt=""></div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center"><img src="assets/images/portfolio/example2.jpg" class = "img-fluid" alt=""></div>
+                    <div class="col d-flex justify-content-center"><img src="assets/images/portfolio/example3.jpg" class = "img-fluid" alt=""></div>
+                </div>
+            </div>
+
+        <div class="container pb-5">
+            <div class="row justify-content-center pb-3"><h1 class ="text-white">Blog</h1></div>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="assets/images/blog/blog-pic1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Post 1</h5>
+                        <p class="card-text">Some text</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/blog/blog-pic2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Post 2</h5>
+                        <p class="card-text">Some text</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/blog/blog-pic3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Post 3</h5>
+                        <p class="card-text">Some text</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-5">
+            <div class="row justify-content-center pb-3"><h1 class ="text-white">Our Team</h1></div>
+            <div class="row">
+                <div class="col-3">
+                    <figure class="figure">
+                        <img src="assets/images/team_section/worker-1.jpg" alt="" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption text-center">team member</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/team_section/worker-2.jpg" alt="" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption text-center">team member</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/team_section/worker-3.jpg" alt="" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption text-center">team member</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/team_section/worker-4.jpg" alt="" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption text-center">team member</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-5">
+            <div class="container d-flex">
+               <div class="col-6 my-0">
+                   <h1 class="text-white">Get in Touch</h1>
+               </div>
+
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your name" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="YourEmail@domain.com" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-5">
+                        <input type="text" class="form-control input-lg"  placeholder="Message" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
