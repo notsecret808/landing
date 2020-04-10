@@ -9,7 +9,7 @@ body {
     border: 1px solid #435EEF;
 }
 
-.btn {
+.btn-header {
     background: #435EEF;
     border-color: #435EEF;
 }
@@ -21,6 +21,7 @@ body {
 
 .nav-link {
     color: #fff;
+    cursor: pointer;
 }
 
 a:hover {
@@ -28,14 +29,17 @@ a:hover {
     color: #FFD773;
 }
 
-.page1 {
-    height:100vh;
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2rem;
 }
 
-.page1-content {
-    display: flex;
-    height: 90%;
-    margin: 0 10%;
+.description p{
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
 }
 
 .fa-bars {
@@ -46,13 +50,24 @@ a:hover {
     font-size: 1.2rem;
 }
 
-.about-me-color {
+.about-bg {
     background: rgba(255, 200, 64, 0.9);
     border: 2px solid #edac95;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.about-me-worker-border {
-    border-right: 3px solid     blue;
+.about{
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left: 2px solid #10828C;
+}
+
+.about .desc p{
+    line-height:2;
 }

@@ -12,60 +12,60 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <title>Levandro's Landing Page</title>
     </head>
-    <div>
-        <div class="page1">
-            <header>
-                <nav class="navbar navbar-expand-lg">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                            <span><i class="fas fa-bars"></i></span>
-                        </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">TEAM</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
-                        </ul>
-                    </div>
-                    <div class="navbar-nav ml-auto">
-                        <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i></a></div>
-                    </div>
-                </nav>
-            </header>
 
-            <div class="page1-content">
-                <div class="container m-auto">
-                        <h1 class = "text-white">Hello, Welcome To My official Website</h1>
-                        <p class = "col-md-7 col-xs-12 pl-0 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <button type="button" class="btn btn-info">See more </button>
-                    </div>
+    <body>
+
+        <nav class="navbar fixed-top navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">TEAM</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                </ul>
             </div>
-        </div>
 
-        <div class="container-fluid pt-5 pb-5">
+            <div class="navbar-nav ml-auto">
+                <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i></a></div>
+            </div>
+        </nav>
+
+
+        <header class = "header">
+            <div class="container">
+                <div class="description">
+                    <h1 class = "text-white">Hello, Welcome To My official Website</h1>
+                    <p class = "text-white">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                        <button type="button" class="btn btn-header btn-info btn-lg">See more </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-lg">
             <div class="row justify-content-center pb-3">
                 <h1 class="text-white">About me</h1>
             </div>
-            <div class="row mx-auto d-flex about-me-color pt-3 pb-3 w-75">
-                 <div class="d-flex col-12 col-md-5">
-                     <div class="d-flex align-items-center about-me-worker-border pr-3">
-                        <img src="assets/images/worker_photo.jpg" class="rounded-circle img-thumbnail img-fluid" alt = "worker_photo">
-                     </div>
-                 </div>
+            <div class="row about-bg about mx-auto">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex align-items-center">
+                    <figure class="figure">
+                        <img src="assets/images/worker_photo.jpg" class="rounded-circle img-thumbnail img-fluid figure-img" alt = "worker_photo">
+                        <figcaption class="figure-caption text-center">S.Web Developer</figcaption>
+                    </figure>
+                </div>
 
-                <div class="col d-flex flex-column justify-content-center">
+                <div class="col-lg col-md col-sm desc d-flex flex-column justify-content-center">
                     <h2>Ivan Ivanov</h2>
-                    <span class="text-white p-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p class="text-white p-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-
             </div>
         </div>
 
@@ -171,5 +171,7 @@
             </div>
         </div>
     </div>
+
+    <script src = "assets/js/header.js"></script>
     </body>
 </html>
