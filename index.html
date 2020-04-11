@@ -6,35 +6,36 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="@import url(‘https://fonts.googleapis.com/css?family=Raleway');">
         <script src="https://kit.fontawesome.com/e3e7565dbb.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <title>Levandro's Landing Page</title>
     </head>
 
     <body>
-
         <nav class="navbar fixed-top navbar-expand-lg">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span><i class="fas fa-bars"></i></span>
                 </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">TEAM</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" data-value= "about" href= "#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" data-value= "portfolio" href= "#portfolio">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" data-value= "blog" href= "#blog">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link" data-value= "team" href= "#team">TEAM</a></li>
+                    <li class="nav-item"><a class="nav-link" data-value= "contact" href= "#contact">CONTACT</a></li>
                 </ul>
             </div>
 
             <div class="navbar-nav ml-auto">
-                <div class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i></a></div>
+                <div class="nav-item"><a data-value="header" href="#" class="nav-link"><i class="fas fa-home"></i></a></div>
             </div>
         </nav>
 
 
-        <header class = "header">
+        <header class = "header" id = "header">
             <div class="container">
                 <div class="description">
                     <h1 class = "text-white">Hello, Welcome To My official Website</h1>
@@ -46,11 +47,11 @@
             </div>
         </header>
 
-        <div class="container-lg">
+        <div class="container about-container" id = "about">
             <div class="row justify-content-center pb-3">
                 <h1 class="text-white">About me</h1>
             </div>
-            <div class="row about-bg about mx-auto">
+            <div class="row about-bg about mx-auto" >
                 <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex align-items-center">
                     <figure class="figure">
                         <img src="assets/images/worker_photo.jpg" class="rounded-circle img-thumbnail img-fluid figure-img" alt = "worker_photo">
@@ -69,16 +70,16 @@
             </div>
         </div>
 
-        <div class="container p-5">
+        <div class="container p-5"  id = "portfolio">
             <div class="row justify-content-center pb-3"><h1 class ="text-white">Portfolio</h1></div>
-                <div class="row  pb-5">
+                <div class="row pb-5 ">
                     <div class="col-12 col-md-4 d-flex justify-content-center"><img src="assets/images/portfolio/example1.png" class = "img-fluid" alt=""></div>
                     <div class="col-12 col-md-4 d-flex justify-content-center"><img src="assets/images/portfolio/example2.jpg" class = "img-fluid" alt=""></div>
                     <div class="col d-flex justify-content-center"><img src="assets/images/portfolio/example3.jpg" class = "img-fluid" alt=""></div>
                 </div>
             </div>
 
-        <div class="container pb-5">
+        <div class="container pb-5" id = "blog">
             <div class="row justify-content-center pb-3"><h1 class ="text-white">Blog</h1></div>
             <div class="card-deck">
                 <div class="card">
@@ -116,62 +117,66 @@
             </div>
         </div>
 
-        <div class="container-fluid p-5">
+        <div class="container-fluid p-5" id = "team">
             <div class="row justify-content-center pb-3"><h1 class ="text-white">Our Team</h1></div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-12 col-md-3" >
                     <figure class="figure">
                         <img src="assets/images/team_section/worker-1.jpg" alt="" class="figure-img img-fluid rounded">
-                        <figcaption class="figure-caption text-center">team member</figcaption>
+                        <figcaption class="figure-caption text-center figure-text-border">team member</figcaption>
                     </figure>
                 </div>
 
-                <div class="col">
+                <div class="col-12 col-md">
                     <figure class="figure">
                         <img src="assets/images/team_section/worker-2.jpg" alt="" class="figure-img img-fluid rounded">
-                        <figcaption class="figure-caption text-center">team member</figcaption>
+                        <figcaption class="figure-caption text-center figure-text-border">team member</figcaption>
                     </figure>
                 </div>
 
-                <div class="col">
+                <div class="col-12 col-md">
                     <figure class="figure">
                         <img src="assets/images/team_section/worker-3.jpg" alt="" class="figure-img img-fluid rounded">
-                        <figcaption class="figure-caption text-center">team member</figcaption>
+                        <figcaption class="figure-caption text-center figure-text-border">team member</figcaption>
                     </figure>
                 </div>
 
-                <div class="col">
+                <div class="col col-md">
                     <figure class="figure">
                         <img src="assets/images/team_section/worker-4.jpg" alt="" class="figure-img img-fluid rounded">
-                        <figcaption class="figure-caption text-center">team member</figcaption>
+                        <figcaption class="figure-caption text-center figure-text-border">team member</figcaption>
                     </figure>
                 </div>
             </div>
         </div>
 
-        <div class="container p-5">
-            <div class="container d-flex">
-               <div class="col-6 my-0">
-                   <h1 class="text-white">Get in Touch</h1>
-               </div>
+        <div class="container p-5" id = "contact">
+            <form>
+                <div class="row">
+                   <div class="col-12 col-md-4 col-lg-4">
+                       <h1 class="text-white">Get in Touch</h1>
+                   </div>
 
-                <div class="col">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Your name" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="YourEmail@domain.com" aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
-
-                    <div class="input-group mb-5">
-                        <input type="text" class="form-control input-lg"  placeholder="Message" aria-label="Username" aria-describedby="basic-addon1">
+                    <div class="col col-md col-lg">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg"
+                                   placeholder="Your name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg"
+                                   placeholder="YourEmail@domain.com" name = "email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class = "form-control form-control-lg"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-header text-white btn-block"
+                               value = "Send" name = "">
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 
-    <script src = "assets/js/header.js"></script>
+    <script src = "assets/js/custom_script.js"></script>
     </body>
 </html>

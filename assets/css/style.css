@@ -3,6 +3,10 @@ body {
     background-size: cover;
 }
 
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
 .navbar {
     width: 100%;
     background: rgba(113, 133, 239, 0.8);
@@ -71,3 +75,23 @@ a:hover {
 .about .desc p{
     line-height:2;
 }
+
+@media (max-width: 875px) {
+    .about-container {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-container {
+        margin-top: 400px;
+    }
+}
+
+.figure-text-border {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: rgba(255, 200, 64, 0.8);
+    border: 2px solid #edac95;
+    color: grey;
+}
+
